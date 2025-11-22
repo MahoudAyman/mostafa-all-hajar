@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>معرض أعمالنا | سابقة أعمال مصطفى الحجر في التكسير والهدم وتجديد الشقق</title>
+    
+    <meta name="description" content="تصفح معرض أعمال مصطفى الحجر للمقاولات. شاهد صور وفيديوهات حقيقية لمشاريع تكسير سيراميك، هدم جدران، وتجديد حمامات ومطابخ شاملة إزالة المخلفات في القاهرة ومصر.">
+    
+    <meta name="keywords" content="معرض أعمال تكسير, صور تكسير سيراميك, مشاريع هدم, تجديد حمامات قبل وبعد, صور هدم جدران, مقاول تكسير, إزالة بلاط, مصطفى الحجر, تشطيبات, فيديو تكسير خرسانة">
+    
+    <meta name="author" content="مصطفى الحجر - مقاولات وتكسير">
+    <meta name="publisher" content="مصطفى الحجر للمقاولات العامة">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.mustafaelhaggar.com/Our_work_gallery.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.mustafaelhaggar.com/Our_work_gallery.html">
+    <meta property="og:title" content="معرض أعمالنا | مصطفى الحجر للتكسير والهدم">
+    <meta property="og:description" content="شاهد بنفسك دقة التنفيذ وسرعة الإنجاز في أعمال التكسير والهدم. تصفح مشاريعنا السابقة قبل وبعد التجديد.">
+    <meta property="og:image" content="https://www.mustafaelhaggar.com/logo.png">
+    <meta property="og:site_name" content="مصطفى الحجر للمقاولات العامة">
+    <meta property="og:locale" content="ar_EG">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.mustafaelhaggar.com/Our_work_gallery.html">
+    <meta name="twitter:title" content="معرض أعمال مصطفى الحجر في التكسير والتجديد">
+    <meta name="twitter:description" content="تصفح معرض أعمالنا وشاهد لماذا نحن الخيار الأول لخدمات التكسير وإزالة المخلفات في مصر.">
+    <meta name="twitter:image" content="https://www.mustafaelhaggar.com/logo.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        /* التنسيقات الخاصة بمعرض الصور والفيديو */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            background: #000;
+            margin-bottom: 3rem;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        .portfolio-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+        .portfolio-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1.5rem;
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        .portfolio-overlay h3 {
+            margin: 0 0 0.5rem 0;
+            font-size: 1.5rem;
+        }
+        .portfolio-overlay p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "معرض أعمال مصطفى الحجر للتكسير والمقاولات",
+      "description": "مجموعة من الصور والفيديوهات التي توثق جودة مشاريع التكسير والهدم وتجديد الحمامات التي قمنا بتنفيذها في مصر.",
+      "url": "https://www.mustafaelhaggar.com/Our_work_gallery.html",
+      "image": [
+        "https://www.mustafaelhaggar.com/images/img3.jpg",
+        "https://www.mustafaelhaggar.com/images/img4.jpg",
+        "https://www.mustafaelhaggar.com/images/before.jpg"
+      ],
+      "creator": {
+        "@type": "Organization",
+        "name": "مصطفى الحجر للمقاولات العامة"
+      }
+    }
+    </script>
+    
+
+</head>
+<body data-theme="light">
+
+     <header class="header">
+        <nav class="navbar" role="navigation" aria-label="Main Navigation">
+
+                <img src="logo.png" alt="شعار مصطفى الحجر للمقاولات logo" class="logo">
+            <ul class="desktop-nav">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="about.html">معلومات عنا</a></li>
+                <li><a href="services.html">خدماتنا</a></li>
+                <li><a href="Our_work_gallery.html">معرض أعمالنا</a></li>
+                <li><a href="index.html#testimonials">آراء العملاء</a></li>
+
+                <li><a href="contact.html">اتصل بنا</a></li>
+                <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" class="theme-toggle" aria-label="تبديل الوضع"><svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg><svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></button>
+                <button class="menu-btn" id="menu-btn" aria-label="فتح القائمة" aria-expanded="false"><span class="bar"></span><span class="bar"></span><span class="bar"></span></button>
+            </div>
+        </nav>
+    </header>
+
+    <aside class="sidebar" id="sidebar">
+        <ul class="sidebar-nav">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">معلومات عنا</a></li>
+            <li><a href="services.html">خدماتنا</a></li>
+            <li><a href="Our_work_gallery.html">معرض أعمالنا</a></li>
+            <li><a href="index.html#testimonials">آراء العملاء</a></li>
+
+            <li><a href="contact.html">اتصل بنا</a></li>
+            <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+        </ul>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <main>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h1 class="section-title">معرض <span class="highlight">أعمالنا</span></h1>
+                <p class="section-subtitle">شاهد بنفسك قوة ودقة أدائنا في الموقع. نعرض لكم مجموعة من مشاريع التكسير والهدم التي أنجزناها وتسليمها نظيفة لعملائنا.</p>
+
+
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <img src="images/img1.jpg" alt="تكسير سيراميك حمام بالكامل" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>مقاولات الحجر</h3>
+                            <p>الموقع: القاهرة الجديدة</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/img2.jpg" alt="هدم جدار لتوسيع مطبخ أمريكاني" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>مقاولات الحجر</h3>
+                            <p>الموقع: الجيزة</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/img3.jpg" alt="تكسير أرضيات وإزالة مخلفات" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>مقاولات الحجر</h3>
+                            <p>الموقع: الإسكندرية</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/img4.jpg" alt="تجهيز شقة للتشطيب بعد التكسير" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>مقاولات الحجر</h3>
+                            <p>الموقع: مدينة نصر</p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <img src="images/img6.jpg" alt="حمام قديم قبل التكسير والتجديد" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>مقاولات الحجر</h3>
+                            <p>الموقع: المعادي</p>
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <img src="images/img5.jpg" alt="تسليم الموقع نظيف" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <h3>مقاولات الحجر</h3>
+                            <p>الموقع: التجمع الخامس</p>
+                        </div>
+                    </div>
+                  
+                  
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+             <div class="footer-col footer-about">
+                <h3>مصطفى الحجر<span class="highlight">.</span> للمقاولات</h3>
+                <p>نحن شركة مصطفى الحجر، الرائدة في أعمال التكسير والهدم في مصر. نلتزم بتقديم خدمة سريعة ونظيفة مع رفع المخلفات لضمان راحتكم وتجهيز الموقع للتشطيب.</p>
+            </div>
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="index.html">الرئيسية</a></li>
+                    <li><a href="about.html">معلومات عنا</a></li>
+                    <li><a href="Our_work_gallery.html">معرض أعمالنا</a></li>
+                    <li><a href="contact.html">اتصل بنا</a></li>
+                    <li><a href="privacy-policy.html">سياسة الخصوصية</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>تواصل معنا</h3>
+                <p>📞 هاتف: <a href="tel:+201098851840" style="color: var(--text-secondary);">01098851840</a></p>
+                <p>📧 إيميل: <a href="mailto:mostafahamadaali591@gmail.com" style="color: var(--text-secondary);">mostafahamadaali591@gmail.com</a></p>
+                <p>📍 العنوان: القاهرة، مصر</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 مصطفى الحجر للمقاولات. جميع الحقوق محفوظة. | <a href="privacy-policy.html">سياسة الخصوصية</a></p>
+        </div>
+    </footer>
+
+
+    <script defer>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const body = document.body;
+            function applyTheme(theme) {
+                body.setAttribute('data-theme', theme);
+                localStorage.setItem('theme', theme);
+            }
+            const savedTheme = localStorage.getItem('theme');
+            applyTheme(savedTheme || 'light');
+            themeToggle.addEventListener('click', () => {
+                const newTheme = body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                applyTheme(newTheme);
+            });
+            const menuBtn = document.getElementById('menu-btn');
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('overlay');
+            function toggleSidebar() {
+                menuBtn.classList.toggle('is-active');
+                sidebar.classList.toggle('is-active');
+                overlay.classList.toggle('is-active');
+            }
+            menuBtn.addEventListener('click', toggleSidebar);
+            overlay.addEventListener('click', toggleSidebar);
+            const header = document.querySelector('.header');
+            window.addEventListener('scroll', () => { header.classList.toggle('scrolled', window.scrollY > 50); });
+        });
+    </script>
+</body>
+</html>

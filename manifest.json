@@ -1,0 +1,80 @@
+{
+  "name": "مصطفى الحجر للمقاولات وأعمال التكسير",
+  "short_name": "مصطفى الحجر",
+  "description": "المقاول الأول في مصر لأعمال التكسير والهدم وتجديد الحمامات. خدمة إزالة سيراميك ورفع مخلفات 24/7 مع ضمان النظافة.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#00f5c3",
+  "background_color": "#ffffff",
+  "categories": [
+    "business",
+    "construction",
+    "productivity",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon-32x32.png", 
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "اتصل بنا الآن",
+      "short_name": "اتصل",
+      "description": "اتصل بمصطفى الحجر مباشرة",
+      "url": "tel:+201098851840",
+      "icons": [
+        {
+          "src": "favicon-32x32.png",
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "واتساب",
+      "short_name": "واتس",
+      "description": "تواصل معنا عبر الواتساب للمعاينة",
+      "url": "https://wa.me/201098851840?text=مرحبا%20مصطفى%20الحجر،%20أريد%20الاستفسار%20عن%20خدمات%20التكسير%20والهدم",
+      "icons": [
+        {
+          "src": "favicon-32x32.png", 
+          "sizes": "32x32",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay",
+    "minimal-ui",
+    "standalone",
+    "browser"
+  ]
+}
